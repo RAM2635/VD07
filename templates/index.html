@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Добро пожаловать{% endblock %}
+{% block content %}
+<h1>Добро пожаловать в наше приложение!</h1>
+<p>Пожалуйста, <a href="{{ url_for('login') }}">войдите</a> или <a href="{{ url_for('register') }}">зарегистрируйтесь</a>, чтобы продолжить.</p>
+{% endblock %}

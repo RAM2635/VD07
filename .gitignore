@@ -1,0 +1,28 @@
+# Исключить виртуальное окружение
+.venv/
+env/
+ENV/
+venv/
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Python кэш и временные файлы
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Логи
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Секретные файлы
+*.env
+.env.*
